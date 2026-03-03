@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-card/80 backdrop-blur-lg border-b border-border">
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <a href="/" className="font-display text-xl font-bold tracking-tight text-foreground">
-          PEPTIDE<span className="text-primary">LAB</span>
+          HELIX<span className="text-primary">LABS</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">

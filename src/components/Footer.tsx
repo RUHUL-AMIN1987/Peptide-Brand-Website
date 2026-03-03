@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
           <div>
             <h3 className="font-display text-lg font-bold mb-4 text-primary-foreground">
-              PEPTIDE<span className="text-teal">LAB</span>
+              HELIX<span className="text-teal">LABS</span>
             </h3>
             <p className="text-sm leading-relaxed opacity-70">
               Premium, research-grade peptides. Science-backed. Third-party tested. Trusted worldwide.

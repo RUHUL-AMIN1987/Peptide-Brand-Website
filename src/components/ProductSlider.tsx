@@ -3,33 +3,67 @@ import product1 from "@/assets/product-1.jpg";
 import product2 from "@/assets/product-2.jpg";
 import product3 from "@/assets/product-3.jpg";
 import product4 from "@/assets/product-4.jpg";
+import product5 from "@/assets/product-5.jpg";   // ← Add this (e.g. CJC/Ipamorelin bottle)
+import product6 from "@/assets/product-6.jpg";   // ← Add this (e.g. GHK-Cu cream/serum)
+import product7 from "@/assets/product-7.jpg";   // ← Add this (e.g. Semaglutide pen/vial)
+import product8 from "@/assets/product-8.jpg";   // ← Add this (e.g. Tirzepatide vial)
 
 const products = [
   {
     image: product1,
-    name: "BPC-157 Capsules",
-    benefit: "Supports gut health & tissue recovery",
+    name: "5-AMINO-1",
+    benefit: "Supports gut health, tissue recovery & inflammation reduction",
     price: "$49.99",
     badge: "Best Seller",
   },
   {
     image: product2,
-    name: "TB-500 Capsules",
-    benefit: "Promotes muscle repair & flexibility",
+    name: "BCP-157",
+    benefit: "Promotes muscle repair, flexibility & accelerated healing",
     price: "$54.99",
+    badge: "Top Rated",
   },
   {
     image: product3,
-    name: "BPC-157 Sublingual",
-    benefit: "Fast-absorbing liquid for rapid recovery",
+    name: "HCG",
+    benefit: "Fast-absorbing liquid form for rapid systemic recovery",
     price: "$64.99",
     badge: "New",
   },
   {
     image: product4,
-    name: "Peptide Recovery Stack",
-    benefit: "Complete recovery & performance blend",
+    name: "MELANOTAN-2",
+    benefit: "BPC-157 + TB-500 blend for complete tissue & injury support",
     price: "$89.99",
+    badge: "Best Seller",
+  },
+  {
+    image: product5,
+    name: "MOTS-C",
+    benefit: "Growth hormone release for muscle growth, fat loss & better sleep",
+    price: "$79.99",
+    badge: "Trending",
+  },
+  {
+    image: product6,
+    name: "OXYTOCIN",
+    benefit: "Skin regeneration, collagen boost & anti-aging recovery",
+    price: "$69.99",
+    badge: "Premium",
+  },
+  {
+    image: product7,
+    name: "SEMAX",
+    benefit: "Appetite control, metabolic support & significant weight management",
+    price: "$249.99",
+    badge: "Popular",
+  },
+  {
+    image: product8,
+    name: "SS-31",
+    benefit: "Advanced GLP-1/GIP for enhanced fat loss & blood sugar balance",
+    price: "$299.99",
+    badge: "Advanced",
   },
 ];
 
